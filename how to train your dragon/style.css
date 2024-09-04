@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.hero-bg {
+    background: url('./images/christmas-red-backdrop-grunge-wood-board-painted-background.webp') no-repeat center center;
+    background-size: cover;
+    
+   
+}
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#image{
+    background-image: url(./images/360_F_754252117_8Ri5VOcLgku0DG3p8D4ObFULGNyjY5w0.webp);
+    height: 600px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(121, 4, 4);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(82, 3, 3);
+    border-radius: 10px;
+}
+.ro{
+    display: flex;
+    justify-content: right;
+  
+}
+.toothless{
+    padding-top:200px;
+    padding-left: 5rem ;
+    
+   
+}
+.toothless {
+    animation: slideLeft 1.5s ease-out;
+    size:1000px;
+    
+    
+}
+@keyframes slideLeft {
+    from { transform: translateY(400px); opacity: 0; }
+    to { transform: translateY(0px); opacity: 1; }
+}
+#buy{
+    size: 10px;
+}
+.title{
+    padding-top: 80px;
+}
+.hw{
+    color: rgb(228, 152, 126);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: rgb(123, 22, 22);
+}
+#features{
+    background-color: rgb(101, 16, 16);
+}
+nav{
+    color:  rgb(187, 137, 121);
+}
+.cast{
+    border-radius: 50%;
+}
+.castsec{
+    background-color: rgb(155, 20, 20);
+}
+.last{
+    background-color:  rgb(123, 22, 22);
+}
